@@ -15,6 +15,8 @@
 - (void)awakeFromNib
 {
     NSArray *projects = @[@"iCarousel",
+                          @"iRate",
+                          @"FXBlurView",
                           @"OSNavigationController",
                           @"XMLDictionary",
                           @"FXLabel",
@@ -24,7 +26,6 @@
                           @"SwipeView",
                           @"FXKeychain",
                           @"FXReachability",
-                          @"iRate",
                           @"HTMLLabel",
                           @"FXJSON",
                           @"GLView",

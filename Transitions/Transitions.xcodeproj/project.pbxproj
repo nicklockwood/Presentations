@@ -15,6 +15,7 @@
 		0134F02D17C60A4100A7EA14 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0134F02C17C60A4100A7EA14 /* SpriteKit.framework */; };
 		0134F03017C6517C00A7EA14 /* SKCITransitionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0134F02F17C6517C00A7EA14 /* SKCITransitionsView.m */; };
 		0134F03217C6525400A7EA14 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0134F03117C6525400A7EA14 /* CoreImage.framework */; };
+		0137C1B717F2366B00BF3371 /* ZoomInLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0137C1B617F2366B00BF3371 /* ZoomInLabel.m */; };
 		015D984417B9793B00249196 /* RollingPopSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 015D984317B9793B00249196 /* RollingPopSegue.m */; };
 		016327D017B970810065E49D /* RollingPushSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 016327CF17B970810065E49D /* RollingPushSegue.m */; };
 		01BA6D4417AD532C00D4B09A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01BA6D4317AD532C00D4B09A /* UIKit.framework */; };
@@ -26,6 +27,7 @@
 		01BA6D5817AD532C00D4B09A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01BA6D5717AD532C00D4B09A /* Default@2x.png */; };
 		01BA6D5A17AD532C00D4B09A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01BA6D5917AD532C00D4B09A /* Default-568h@2x.png */; };
 		01BA6D6817AD564C00D4B09A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BA6D6717AD564C00D4B09A /* BaseViewController.m */; };
+		01D2465917F486D9006C5DE3 /* CustomTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D2465817F486D9006C5DE3 /* CustomTransitionViewController.m */; };
 		01D2CB3B17B5AF93007A39A5 /* CATransitionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D2CB3A17B5AF93007A39A5 /* CATransitionsView.m */; };
 		01D2CB3D17B5AFE5007A39A5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01D2CB3C17B5AFE4007A39A5 /* QuartzCore.framework */; };
 		01D2CB4217B62F33007A39A5 /* PageCurlPushSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 01D2CB4117B62F33007A39A5 /* PageCurlPushSegue.m */; };
@@ -37,7 +39,7 @@
 		01E1EEB617B01AB800F2A2FA /* UIKitTransitionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E1EEB517B01AB800F2A2FA /* UIKitTransitionsView.m */; };
 		01E9CDE217C4C484003351F1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E9CDE117C4C484003351F1 /* MainStoryboard.storyboard */; };
 		01EA361617C4F34E004647EF /* ProjectsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EA361517C4F34E004647EF /* ProjectsView.m */; };
-		01EA362017C4FABE004647EF /* iCarouselDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EA361F17C4FABE004647EF /* iCarouselDemoViewController.m */; };
+		01EA362017C4FABE004647EF /* iCarouselDemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EA361F17C4FABE004647EF /* iCarouselDemoView.m */; };
 		01EA362517C4FB1A004647EF /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EA362417C4FB1A004647EF /* iCarousel.m */; };
 		01EA362D17C529F6004647EF /* OpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01EA362C17C529F6004647EF /* OpenGLView.m */; };
 		01EA362F17C52A07004647EF /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01EA362E17C52A07004647EF /* GLKit.framework */; };
@@ -70,6 +72,8 @@
 		0134F02E17C6517C00A7EA14 /* SKCITransitionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKCITransitionsView.h; sourceTree = "<group>"; };
 		0134F02F17C6517C00A7EA14 /* SKCITransitionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKCITransitionsView.m; sourceTree = "<group>"; };
 		0134F03117C6525400A7EA14 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		0137C1B517F2366B00BF3371 /* ZoomInLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoomInLabel.h; sourceTree = "<group>"; };
+		0137C1B617F2366B00BF3371 /* ZoomInLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoomInLabel.m; sourceTree = "<group>"; };
 		015D984217B9793B00249196 /* RollingPopSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollingPopSegue.h; sourceTree = "<group>"; };
 		015D984317B9793B00249196 /* RollingPopSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollingPopSegue.m; sourceTree = "<group>"; };
 		016327CE17B970810065E49D /* RollingPushSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollingPushSegue.h; sourceTree = "<group>"; };
@@ -88,6 +92,8 @@
 		01BA6D5917AD532C00D4B09A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		01BA6D6617AD564C00D4B09A /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		01BA6D6717AD564C00D4B09A /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		01D2465717F486D9006C5DE3 /* CustomTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTransitionViewController.h; sourceTree = "<group>"; };
+		01D2465817F486D9006C5DE3 /* CustomTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTransitionViewController.m; sourceTree = "<group>"; };
 		01D2CB3917B5AF93007A39A5 /* CATransitionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransitionsView.h; sourceTree = "<group>"; };
 		01D2CB3A17B5AF93007A39A5 /* CATransitionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransitionsView.m; sourceTree = "<group>"; };
 		01D2CB3C17B5AFE4007A39A5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -108,8 +114,8 @@
 		01E9CDE117C4C484003351F1 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		01EA361417C4F34E004647EF /* ProjectsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectsView.h; sourceTree = "<group>"; };
 		01EA361517C4F34E004647EF /* ProjectsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectsView.m; sourceTree = "<group>"; };
-		01EA361E17C4FABE004647EF /* iCarouselDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarouselDemoViewController.h; sourceTree = "<group>"; };
-		01EA361F17C4FABE004647EF /* iCarouselDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarouselDemoViewController.m; sourceTree = "<group>"; };
+		01EA361E17C4FABE004647EF /* iCarouselDemoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarouselDemoView.h; sourceTree = "<group>"; };
+		01EA361F17C4FABE004647EF /* iCarouselDemoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarouselDemoView.m; sourceTree = "<group>"; };
 		01EA362317C4FB1A004647EF /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		01EA362417C4FB1A004647EF /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 		01EA362B17C529F6004647EF /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView.h; sourceTree = "<group>"; };
@@ -221,6 +227,8 @@
 		01D2CB3E17B62EDA007A39A5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				01EA361E17C4FABE004647EF /* iCarouselDemoView.h */,
+				01EA361F17C4FABE004647EF /* iCarouselDemoView.m */,
 				01F5411517B19FCE00A9F673 /* UIKitAnimationView.h */,
 				01F5411617B19FCE00A9F673 /* UIKitAnimationView.m */,
 				01E1EEB417B01AB800F2A2FA /* UIKitTransitionsView.h */,
@@ -233,6 +241,8 @@
 				0134F02F17C6517C00A7EA14 /* SKCITransitionsView.m */,
 				01FAA41417C4E121009039C7 /* FadeInLabel.h */,
 				01FAA41517C4E121009039C7 /* FadeInLabel.m */,
+				0137C1B517F2366B00BF3371 /* ZoomInLabel.h */,
+				0137C1B617F2366B00BF3371 /* ZoomInLabel.m */,
 				01EA361417C4F34E004647EF /* ProjectsView.h */,
 				01EA361517C4F34E004647EF /* ProjectsView.m */,
 				01EA362B17C529F6004647EF /* OpenGLView.h */,
@@ -284,8 +294,8 @@
 				01BA6D5317AD532C00D4B09A /* AppDelegate.m */,
 				01BA6D6617AD564C00D4B09A /* BaseViewController.h */,
 				01BA6D6717AD564C00D4B09A /* BaseViewController.m */,
-				01EA361E17C4FABE004647EF /* iCarouselDemoViewController.h */,
-				01EA361F17C4FABE004647EF /* iCarouselDemoViewController.m */,
+				01D2465717F486D9006C5DE3 /* CustomTransitionViewController.h */,
+				01D2465817F486D9006C5DE3 /* CustomTransitionViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -401,6 +411,7 @@
 				01F5411717B19FCE00A9F673 /* UIKitAnimationView.m in Sources */,
 				01D2CB3B17B5AF93007A39A5 /* CATransitionsView.m in Sources */,
 				01D2CB4217B62F33007A39A5 /* PageCurlPushSegue.m in Sources */,
+				0137C1B717F2366B00BF3371 /* ZoomInLabel.m in Sources */,
 				0134F02117C56CF100A7EA14 /* SnapshotPushSegue.m in Sources */,
 				01D2CB4B17B6824E007A39A5 /* PageCurlPopSegue.m in Sources */,
 				01D2CB4E17B81374007A39A5 /* CACrossfadePushSegue.m in Sources */,
@@ -413,10 +424,11 @@
 				01FAA41617C4E121009039C7 /* FadeInLabel.m in Sources */,
 				01EA361617C4F34E004647EF /* ProjectsView.m in Sources */,
 				0134F03017C6517C00A7EA14 /* SKCITransitionsView.m in Sources */,
-				01EA362017C4FABE004647EF /* iCarouselDemoViewController.m in Sources */,
+				01EA362017C4FABE004647EF /* iCarouselDemoView.m in Sources */,
 				01EA362517C4FB1A004647EF /* iCarousel.m in Sources */,
 				01EA362D17C529F6004647EF /* OpenGLView.m in Sources */,
 				01EA363717C52CB1004647EF /* SkeweView.m in Sources */,
+				01D2465917F486D9006C5DE3 /* CustomTransitionViewController.m in Sources */,
 				01EA363A17C52E92004647EF /* VideoView.m in Sources */,
 				01EA364C17C55F67004647EF /* CubeRotatePushSegue.m in Sources */,
 				01EA364F17C560D4004647EF /* CubeRotatePopSegue.m in Sources */,

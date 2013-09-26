@@ -42,6 +42,14 @@ static UIImageView *arrowView = nil;
     self.titleLabel.center = CGPointMake(self.view.bounds.size.width / 2, 60);
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    //set delegate to nil by default
+    self.navigationController.delegate = nil;
+}
+
 - (BOOL)prefersStatusBarHidden
 {
     return YES;

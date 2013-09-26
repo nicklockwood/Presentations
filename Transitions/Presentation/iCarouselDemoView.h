@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Charcoal Design. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import <UIKit/UIKit.h>
 
-@interface iCarouselDemoViewController : BaseViewController
+@interface iCarouselDemoView : UIView
 
 @end

@@ -24,7 +24,7 @@
     transition.type = kCATransitionFade;
     [nav.view.layer addAnimation:transition forKey:nil];
     
-    //push new controller
+    ///pop controller
     [nav popViewControllerAnimated:NO];
 }
 

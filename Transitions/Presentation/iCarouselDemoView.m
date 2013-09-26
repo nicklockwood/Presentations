@@ -6,11 +6,11 @@
 //  Copyright (c) 2013 Charcoal Design. All rights reserved.
 //
 
-#import "iCarouselDemoViewController.h"
+#import "iCarouselDemoView.h"
 #import "iCarousel.h"
 
 
-@interface iCarouselDemoViewController () <iCarouselDataSource, iCarouselDelegate, UIActionSheetDelegate>
+@interface iCarouselDemoView () <iCarouselDataSource, iCarouselDelegate, UIActionSheetDelegate>
 
 @property (nonatomic, weak) IBOutlet iCarousel *carousel;
 @property (nonatomic, weak) IBOutlet UINavigationItem *navItem;
@@ -23,7 +23,7 @@
 @end
 
 
-@implementation iCarouselDemoViewController
+@implementation iCarouselDemoView
 
 - (void)awakeFromNib
 {
@@ -34,18 +34,13 @@
     {
         [self.items addObject:@(i)];
     }
-}
-
-#pragma mark -
-#pragma mark View lifecycle
-
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
     
     //configure carousel
     self.carousel.type = iCarouselTypeCoverFlow2;
     self.navItem.title = @"CoverFlow2";
+    
+    //reload
+    [self.carousel reloadData];
 }
 
 - (IBAction)switchCarouselType
@@ -55,7 +50,7 @@
                                               cancelButtonTitle:nil
                                          destructiveButtonTitle:nil
                                               otherButtonTitles:@"Linear", @"Rotary", @"Inverted Rotary", @"Cylinder", @"Inverted Cylinder", @"Wheel", @"Inverted Wheel", @"CoverFlow", @"CoverFlow2", @"Time Machine", @"Inverted Time Machine", @"Custom", nil];
-    [sheet showInView:self.view];
+    [sheet showInView:self];
 }
 
 - (IBAction)toggleOrientation
