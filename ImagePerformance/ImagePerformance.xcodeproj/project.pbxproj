@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013B85C51910376800C93403 /* 32. Loading Methods.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013B85C41910376800C93403 /* 32. Loading Methods.xib */; };
+		013B85C719103CBC00C93403 /* 33. Loading Methods.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013B85C619103CBC00C93403 /* 33. Loading Methods.xib */; };
+		013B85D619115AC000C93403 /* 75. Hybrid Images.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013B85D519115AC000C93403 /* 75. Hybrid Images.xib */; };
+		013B85D819115AD700C93403 /* 79. PVRTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013B85D719115AD700C93403 /* 79. PVRTC.xib */; };
+		013B85DA19115B0B00C93403 /* 81. Links.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013B85D919115B0B00C93403 /* 81. Links.xib */; };
+		013B85DC1911673200C93403 /* 70. Extreme Measures.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013B85DB1911673200C93403 /* 70. Extreme Measures.xib */; };
+		013D6B1C1917C3B000586550 /* BulletLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 013D6B1B1917C3B000586550 /* BulletLabel.m */; };
+		013D6B1E1918C86100586550 /* 03. Performance.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013D6B1D1918C86100586550 /* 03. Performance.xib */; };
+		013D6B221918E0DA00586550 /* 06. Trade-offs.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013D6B211918E0DA00586550 /* 06. Trade-offs.xib */; };
+		013D6B241918EB8600586550 /* 08. Trade-offs.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013D6B231918EB8600586550 /* 08. Trade-offs.xib */; };
+		013D6B261918EC4E00586550 /* 09. Trade-offs.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013D6B251918EC4E00586550 /* 09. Trade-offs.xib */; };
+		013D6B281918F22600586550 /* 10. File Format.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013D6B271918F22600586550 /* 10. File Format.xib */; };
+		013D6B2E1919101900586550 /* 12. PNG for Everything.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013D6B2D1919101900586550 /* 12. PNG for Everything.xib */; };
+		013D6B351919196900586550 /* 15. PNG for Everything.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013D6B341919196900586550 /* 15. PNG for Everything.xib */; };
+		013D6B37191924FF00586550 /* 16. Other Options.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013D6B36191924FF00586550 /* 16. Other Options.xib */; };
+		013D6B3919192A7C00586550 /* 17. Other Options.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013D6B3819192A7C00586550 /* 17. Other Options.xib */; };
+		013D6B3E191A198900586550 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 013D6B3D191A198900586550 /* iCarousel.m */; };
+		013D6B40191A303D00586550 /* 20. Format Sizes.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013D6B3F191A303D00586550 /* 20. Format Sizes.xib */; };
+		013D6B42191A37B400586550 /* 25. Memory Usage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013D6B41191A37B400586550 /* 25. Memory Usage.xib */; };
+		013D6B44191A394600586550 /* 23. Memory Usage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013D6B43191A394600586550 /* 23. Memory Usage.xib */; };
+		013D6B46191A3A5C00586550 /* 24. Memory Usage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 013D6B45191A3A5C00586550 /* 24. Memory Usage.xib */; };
+		013E882618E5CAA0001378F7 /* LoadingBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 013E882518E5CAA0001378F7 /* LoadingBarController.m */; };
+		013E882918E70CA1001378F7 /* LoadingBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 013E882818E70CA1001378F7 /* LoadingBar.m */; };
+		014AA62F18F5E52A00A0F24B /* Button.m in Sources */ = {isa = PBXBuildFile; fileRef = 014AA62E18F5E52A00A0F24B /* Button.m */; };
+		014CE0A618F464DA00F1B348 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 014CE0A518F464DA00F1B348 /* QuartzCore.framework */; };
+		016658D019223C6000326C73 /* LinkLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 016658CF19223C6000326C73 /* LinkLabel.m */; };
+		016658D419224FAE00326C73 /* NSOperationStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 016658D319224FAE00326C73 /* NSOperationStack.m */; };
+		016658D71923344C00326C73 /* 04. Compromise.xib in Resources */ = {isa = PBXBuildFile; fileRef = 016658D51923344C00326C73 /* 04. Compromise.xib */; };
+		016658D81923344C00326C73 /* 05. Compromise.xib in Resources */ = {isa = PBXBuildFile; fileRef = 016658D61923344C00326C73 /* 05. Compromise.xib */; };
+		016658DB1923345A00326C73 /* TriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 016658DA1923345A00326C73 /* TriangleView.m */; };
+		016C1C4D18D6DFEB0086BFC1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 016C1C4C18D6DFEA0086BFC1 /* Foundation.framework */; };
+		016C1C4F18D6DFEB0086BFC1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 016C1C4E18D6DFEB0086BFC1 /* CoreGraphics.framework */; };
+		016C1C5118D6DFEB0086BFC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 016C1C5018D6DFEB0086BFC1 /* UIKit.framework */; };
+		016C1C5718D6DFEB0086BFC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 016C1C5518D6DFEB0086BFC1 /* InfoPlist.strings */; };
+		016C1C5918D6DFEB0086BFC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 016C1C5818D6DFEB0086BFC1 /* main.m */; };
+		016C1C5D18D6DFEB0086BFC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 016C1C5C18D6DFEB0086BFC1 /* AppDelegate.m */; };
+		016C1C6018D6DFEB0086BFC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016C1C5E18D6DFEB0086BFC1 /* Main.storyboard */; };
+		016C1C6318D6DFEB0086BFC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 016C1C6218D6DFEB0086BFC1 /* ViewController.m */; };
+		016C1C6518D6DFEB0086BFC1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016C1C6418D6DFEB0086BFC1 /* Images.xcassets */; };
+		016C1C8618D89F270086BFC1 /* 01. Title.xib in Resources */ = {isa = PBXBuildFile; fileRef = 016C1C8518D89F270086BFC1 /* 01. Title.xib */; };
+		016C1C8A18D8A1DA0086BFC1 /* 02. Performance.xib in Resources */ = {isa = PBXBuildFile; fileRef = 016C1C8918D8A1DA0086BFC1 /* 02. Performance.xib */; };
+		016C1C8D18D8A1FD0086BFC1 /* TitleLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 016C1C8C18D8A1FD0086BFC1 /* TitleLabel.m */; };
+		016C1C9018D8A23E0086BFC1 /* BodyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 016C1C8F18D8A23E0086BFC1 /* BodyLabel.m */; };
+		016E3F2718F2FBE700BA584F /* ImagePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 016E3F2618F2FBE700BA584F /* ImagePickerView.m */; };
+		017824F918E0795E004C3815 /* ImageLoadingOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 017824F818E0795E004C3815 /* ImageLoadingOperation.m */; };
+		017AF710190969F200AA6D9D /* 07. Trade-offs.xib in Resources */ = {isa = PBXBuildFile; fileRef = 017AF70F190969F200AA6D9D /* 07. Trade-offs.xib */; };
+		017AF71219097ACC00AA6D9D /* 11. File Format.xib in Resources */ = {isa = PBXBuildFile; fileRef = 017AF71119097ACC00AA6D9D /* 11. File Format.xib */; };
+		017AF71419097C5A00AA6D9D /* 19. Format Sizes.xib in Resources */ = {isa = PBXBuildFile; fileRef = 017AF71319097C5A00AA6D9D /* 19. Format Sizes.xib */; };
+		017AF71719097CD700AA6D9D /* ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 017AF71619097CD700AA6D9D /* ImageView.m */; };
+		017AF71A1909AB6C00AA6D9D /* FileSizeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 017AF7191909AB6C00AA6D9D /* FileSizeLabel.m */; };
+		017AF721190A9E3100AA6D9D /* 22. Memory Usage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 017AF720190A9E3100AA6D9D /* 22. Memory Usage.xib */; };
+		017AF725190AA3B200AA6D9D /* 31. Loading Methods.xib in Resources */ = {isa = PBXBuildFile; fileRef = 017AF724190AA3B200AA6D9D /* 31. Loading Methods.xib */; };
+		017AF727190AAA3800AA6D9D /* 60. CPU vs GPU.xib in Resources */ = {isa = PBXBuildFile; fileRef = 017AF726190AAA3800AA6D9D /* 60. CPU vs GPU.xib */; };
+		017AF729190AAF2F00AA6D9D /* 61. CPU vs GPU.xib in Resources */ = {isa = PBXBuildFile; fileRef = 017AF728190AAF2F00AA6D9D /* 61. CPU vs GPU.xib */; };
+		017AF72B190AB91A00AA6D9D /* 35. Loading Performance.xib in Resources */ = {isa = PBXBuildFile; fileRef = 017AF72A190AB91A00AA6D9D /* 35. Loading Performance.xib */; };
+		01859C3F1915A3AC00B7CB73 /* PVRView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01859C3E1915A3AC00B7CB73 /* PVRView.m */; };
+		01859C431915A4B600B7CB73 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01859C421915A4B600B7CB73 /* GLKit.framework */; };
+		01859C451915A4BB00B7CB73 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01859C441915A4BB00B7CB73 /* OpenGLES.framework */; };
+		018A683C18F8848F007770EE /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018A683B18F8848F007770EE /* ImageIO.framework */; };
+		0197DDD1191B7ACE007F9A4F /* 21. File Size Tips.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0197DDD0191B7ACE007F9A4F /* 21. File Size Tips.xib */; };
+		0197DDD3191B7F52007F9A4F /* 26. Measuring Performance.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0197DDD2191B7F52007F9A4F /* 26. Measuring Performance.xib */; };
+		0197DDD7191BC46E007F9A4F /* 29. Loading Time.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0197DDD6191BC46E007F9A4F /* 29. Loading Time.xib */; };
+		0197DDD9191BE15D007F9A4F /* 30. Loading + Decoding Time.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0197DDD8191BE15D007F9A4F /* 30. Loading + Decoding Time.xib */; };
+		0197DDDF191C209F007F9A4F /* 34. Loading Methods.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0197DDDE191C209F007F9A4F /* 34. Loading Methods.xib */; };
+		0197DDE1191CB1B7007F9A4F /* 37. Loading Time vs Drawing Time.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0197DDE0191CB1B7007F9A4F /* 37. Loading Time vs Drawing Time.xib */; };
+		0197DDED191CE678007F9A4F /* 36. Loading Time vs Drawing Time.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0197DDEC191CE678007F9A4F /* 36. Loading Time vs Drawing Time.xib */; };
+		0197DDF1191CED6B007F9A4F /* 41. Loading Time vs Drawing Time.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0197DDF0191CED6B007F9A4F /* 41. Loading Time vs Drawing Time.xib */; };
+		0197DDF5191CF125007F9A4F /* 46. Decoding With Core Graphics.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0197DDF4191CF125007F9A4F /* 46. Decoding With Core Graphics.xib */; };
+		0197DDF8191D1F1C007F9A4F /* 52. Core Graphics vs ImageIO.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0197DDF6191D1EB7007F9A4F /* 52. Core Graphics vs ImageIO.xib */; };
+		0197DDFA191D29FD007F9A4F /* 48. Decoding With Core Graphics.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0197DDF9191D29FD007F9A4F /* 48. Decoding With Core Graphics.xib */; };
+		0197DDFC191D38DB007F9A4F /* 47. Decoding With Core Graphics.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0197DDFB191D38DB007F9A4F /* 47. Decoding With Core Graphics.xib */; };
+		0197DE00191D403A007F9A4F /* 49. Decoding With ImageIO.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0197DDFF191D403A007F9A4F /* 49. Decoding With ImageIO.xib */; };
+		0197DE02191D42D9007F9A4F /* 50. Decoding With ImageIO.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0197DE01191D42D9007F9A4F /* 50. Decoding With ImageIO.xib */; };
+		0197DE04191D4465007F9A4F /* 51. Decoding With ImageIO.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0197DE03191D4465007F9A4F /* 51. Decoding With ImageIO.xib */; };
+		0197DE06191E1E11007F9A4F /* 58. Core Graphics vs ImageIO.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0197DE05191E1E11007F9A4F /* 58. Core Graphics vs ImageIO.xib */; };
+		0197DE0A191E30D9007F9A4F /* 55. Thumbnails.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0197DE09191E30D9007F9A4F /* 55. Thumbnails.xib */; };
+		0197DE0E191E3776007F9A4F /* 56. Thumbnails With Core Graphics.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0197DE0D191E3776007F9A4F /* 56. Thumbnails With Core Graphics.xib */; };
+		0197DE10191E3AC4007F9A4F /* 57. Thumbnails With ImageIO.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0197DE0F191E3AC4007F9A4F /* 57. Thumbnails With ImageIO.xib */; };
+		0197DE12191E4016007F9A4F /* 59. Core Graphics vs ImageIO.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0197DE11191E4016007F9A4F /* 59. Core Graphics vs ImageIO.xib */; };
+		0197DE14191E5FC8007F9A4F /* 62. Decoding Tips.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0197DE13191E5FC8007F9A4F /* 62. Decoding Tips.xib */; };
+		0197DE5A191E72F9007F9A4F /* Images in Resources */ = {isa = PBXBuildFile; fileRef = 0197DE56191E72F9007F9A4F /* Images */; };
+		0197DE5B191E72F9007F9A4F /* Lake in Resources */ = {isa = PBXBuildFile; fileRef = 0197DE57191E72F9007F9A4F /* Lake */; };
+		0197DE5D191E72F9007F9A4F /* PVR in Resources */ = {isa = PBXBuildFile; fileRef = 0197DE59191E72F9007F9A4F /* PVR */; };
+		0197DE62191E8B6D007F9A4F /* UncompressedImageLoadingOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0197DE61191E8B6D007F9A4F /* UncompressedImageLoadingOperation.m */; };
+		01B8A8C619024A1B00E67C11 /* 54. Core Graphics vs ImageIO.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B8A8C519024A1B00E67C11 /* 54. Core Graphics vs ImageIO.xib */; };
+		01B8A8C919024B0300E67C11 /* ImageCarouselController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B8A8C819024B0300E67C11 /* ImageCarouselController.m */; };
+		01C6F7C9191E9839008B9231 /* 74. Uncompressed Images.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01C6F7C8191E9839008B9231 /* 74. Uncompressed Images.xib */; };
+		01C6F7CB191E9CA2008B9231 /* 64. Caching.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01C6F7CA191E9CA2008B9231 /* 64. Caching.xib */; };
+		01D823FE191E9EDD00170F74 /* 66. Caching.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D823FD191E9EDD00170F74 /* 66. Caching.xib */; };
+		01D82400191EA16300170F74 /* 67. Caching.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01D823FF191EA16300170F74 /* 67. Caching.xib */; };
+		01FD0D4919212ADE00132D60 /* 72. Uncompressed Images.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01FD0D4819212ADE00132D60 /* 72. Uncompressed Images.xib */; };
+		01FD0D4F19212C9700132D60 /* JPNG.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FD0D4E19212C9700132D60 /* JPNG.m */; };
+		01FD0D5119212CE700132D60 /* 76. Hybrid Images.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01FD0D5019212CE700132D60 /* 76. Hybrid Images.xib */; };
+		01FD0D531921E1C300132D60 /* 73. Uncompressed Images.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01FD0D521921E1C300132D60 /* 73. Uncompressed Images.xib */; };
+		01FD0D551922123C00132D60 /* 77. OpenGL Texture Formats.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01FD0D541922123C00132D60 /* 77. OpenGL Texture Formats.xib */; };
+		01FD0D57192215AE00132D60 /* 78. PVRTC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01FD0D56192215AE00132D60 /* 78. PVRTC.xib */; };
+		01FD0D59192218B400132D60 /* 63. Drawing Tips.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01FD0D58192218B400132D60 /* 63. Drawing Tips.xib */; };
+		01FD0D5B19221A2900132D60 /* 80. Conclusions.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01FD0D5A19221A2900132D60 /* 80. Conclusions.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		013B85C41910376800C93403 /* 32. Loading Methods.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "32. Loading Methods.xib"; sourceTree = "<group>"; };
+		013B85C619103CBC00C93403 /* 33. Loading Methods.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "33. Loading Methods.xib"; sourceTree = "<group>"; };
+		013B85D519115AC000C93403 /* 75. Hybrid Images.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "75. Hybrid Images.xib"; sourceTree = "<group>"; };
+		013B85D719115AD700C93403 /* 79. PVRTC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "79. PVRTC.xib"; sourceTree = "<group>"; };
+		013B85D919115B0B00C93403 /* 81. Links.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "81. Links.xib"; sourceTree = "<group>"; };
+		013B85DB1911673200C93403 /* 70. Extreme Measures.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "70. Extreme Measures.xib"; sourceTree = "<group>"; };
+		013D6B1A1917C3B000586550 /* BulletLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletLabel.h; sourceTree = "<group>"; };
+		013D6B1B1917C3B000586550 /* BulletLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BulletLabel.m; sourceTree = "<group>"; };
+		013D6B1D1918C86100586550 /* 03. Performance.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "03. Performance.xib"; sourceTree = "<group>"; };
+		013D6B211918E0DA00586550 /* 06. Trade-offs.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "06. Trade-offs.xib"; sourceTree = "<group>"; };
+		013D6B231918EB8600586550 /* 08. Trade-offs.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "08. Trade-offs.xib"; sourceTree = "<group>"; };
+		013D6B251918EC4E00586550 /* 09. Trade-offs.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "09. Trade-offs.xib"; sourceTree = "<group>"; };
+		013D6B271918F22600586550 /* 10. File Format.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "10. File Format.xib"; sourceTree = "<group>"; };
+		013D6B2D1919101900586550 /* 12. PNG for Everything.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "12. PNG for Everything.xib"; sourceTree = "<group>"; };
+		013D6B341919196900586550 /* 15. PNG for Everything.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "15. PNG for Everything.xib"; sourceTree = "<group>"; };
+		013D6B36191924FF00586550 /* 16. Other Options.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "16. Other Options.xib"; sourceTree = "<group>"; };
+		013D6B3819192A7C00586550 /* 17. Other Options.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "17. Other Options.xib"; sourceTree = "<group>"; };
+		013D6B3C191A198900586550 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		013D6B3D191A198900586550 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		013D6B3F191A303D00586550 /* 20. Format Sizes.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "20. Format Sizes.xib"; sourceTree = "<group>"; };
+		013D6B41191A37B400586550 /* 25. Memory Usage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "25. Memory Usage.xib"; sourceTree = "<group>"; };
+		013D6B43191A394600586550 /* 23. Memory Usage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "23. Memory Usage.xib"; sourceTree = "<group>"; };
+		013D6B45191A3A5C00586550 /* 24. Memory Usage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "24. Memory Usage.xib"; sourceTree = "<group>"; };
+		013E882418E5CAA0001378F7 /* LoadingBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingBarController.h; sourceTree = "<group>"; };
+		013E882518E5CAA0001378F7 /* LoadingBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingBarController.m; sourceTree = "<group>"; };
+		013E882718E70CA1001378F7 /* LoadingBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingBar.h; sourceTree = "<group>"; };
+		013E882818E70CA1001378F7 /* LoadingBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingBar.m; sourceTree = "<group>"; };
+		014AA62D18F5E52A00A0F24B /* Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Button.h; sourceTree = "<group>"; };
+		014AA62E18F5E52A00A0F24B /* Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Button.m; sourceTree = "<group>"; };
+		014CE0A518F464DA00F1B348 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		016658CE19223C6000326C73 /* LinkLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkLabel.h; sourceTree = "<group>"; };
+		016658CF19223C6000326C73 /* LinkLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkLabel.m; sourceTree = "<group>"; };
+		016658D219224FAE00326C73 /* NSOperationStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOperationStack.h; sourceTree = "<group>"; };
+		016658D319224FAE00326C73 /* NSOperationStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperationStack.m; sourceTree = "<group>"; };
+		016658D51923344C00326C73 /* 04. Compromise.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "04. Compromise.xib"; sourceTree = "<group>"; };
+		016658D61923344C00326C73 /* 05. Compromise.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "05. Compromise.xib"; sourceTree = "<group>"; };
+		016658D91923345A00326C73 /* TriangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleView.h; sourceTree = "<group>"; };
+		016658DA1923345A00326C73 /* TriangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleView.m; sourceTree = "<group>"; };
+		016C1C4918D6DFEA0086BFC1 /* ImagePerformance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImagePerformance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		016C1C4C18D6DFEA0086BFC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		016C1C4E18D6DFEB0086BFC1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		016C1C5018D6DFEB0086BFC1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		016C1C5418D6DFEB0086BFC1 /* ImagePerformance-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImagePerformance-Info.plist"; sourceTree = "<group>"; };
+		016C1C5618D6DFEB0086BFC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		016C1C5818D6DFEB0086BFC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		016C1C5A18D6DFEB0086BFC1 /* ImagePerformance-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImagePerformance-Prefix.pch"; sourceTree = "<group>"; };
+		016C1C5B18D6DFEB0086BFC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		016C1C5C18D6DFEB0086BFC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		016C1C5F18D6DFEB0086BFC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		016C1C6118D6DFEB0086BFC1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		016C1C6218D6DFEB0086BFC1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		016C1C6418D6DFEB0086BFC1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		016C1C6B18D6DFEB0086BFC1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		016C1C8518D89F270086BFC1 /* 01. Title.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "01. Title.xib"; sourceTree = "<group>"; };
+		016C1C8918D8A1DA0086BFC1 /* 02. Performance.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "02. Performance.xib"; sourceTree = "<group>"; };
+		016C1C8B18D8A1FD0086BFC1 /* TitleLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleLabel.h; sourceTree = "<group>"; };
+		016C1C8C18D8A1FD0086BFC1 /* TitleLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleLabel.m; sourceTree = "<group>"; };
+		016C1C8E18D8A23E0086BFC1 /* BodyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BodyLabel.h; sourceTree = "<group>"; };
+		016C1C8F18D8A23E0086BFC1 /* BodyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BodyLabel.m; sourceTree = "<group>"; };
+		016E3F2318F2F58E00BA584F /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		016E3F2518F2FBE700BA584F /* ImagePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerView.h; sourceTree = "<group>"; };
+		016E3F2618F2FBE700BA584F /* ImagePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePickerView.m; sourceTree = "<group>"; };
+		017824F718E0795E004C3815 /* ImageLoadingOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageLoadingOperation.h; sourceTree = "<group>"; };
+		017824F818E0795E004C3815 /* ImageLoadingOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageLoadingOperation.m; sourceTree = "<group>"; };
+		017AF70F190969F200AA6D9D /* 07. Trade-offs.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "07. Trade-offs.xib"; sourceTree = "<group>"; };
+		017AF71119097ACC00AA6D9D /* 11. File Format.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "11. File Format.xib"; sourceTree = "<group>"; };
+		017AF71319097C5A00AA6D9D /* 19. Format Sizes.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "19. Format Sizes.xib"; sourceTree = "<group>"; };
+		017AF71519097CD700AA6D9D /* ImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageView.h; sourceTree = "<group>"; };
+		017AF71619097CD700AA6D9D /* ImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageView.m; sourceTree = "<group>"; };
+		017AF7181909AB6C00AA6D9D /* FileSizeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileSizeLabel.h; sourceTree = "<group>"; };
+		017AF7191909AB6C00AA6D9D /* FileSizeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileSizeLabel.m; sourceTree = "<group>"; };
+		017AF720190A9E3100AA6D9D /* 22. Memory Usage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "22. Memory Usage.xib"; sourceTree = "<group>"; };
+		017AF724190AA3B200AA6D9D /* 31. Loading Methods.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "31. Loading Methods.xib"; sourceTree = "<group>"; };
+		017AF726190AAA3800AA6D9D /* 60. CPU vs GPU.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "60. CPU vs GPU.xib"; sourceTree = "<group>"; };
+		017AF728190AAF2F00AA6D9D /* 61. CPU vs GPU.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "61. CPU vs GPU.xib"; sourceTree = "<group>"; };
+		017AF72A190AB91A00AA6D9D /* 35. Loading Performance.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "35. Loading Performance.xib"; sourceTree = "<group>"; };
+		01859C3D1915A3AC00B7CB73 /* PVRView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRView.h; sourceTree = "<group>"; };
+		01859C3E1915A3AC00B7CB73 /* PVRView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PVRView.m; sourceTree = "<group>"; };
+		01859C421915A4B600B7CB73 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		01859C441915A4BB00B7CB73 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		018A683B18F8848F007770EE /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		0197DDD0191B7ACE007F9A4F /* 21. File Size Tips.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "21. File Size Tips.xib"; sourceTree = "<group>"; };
+		0197DDD2191B7F52007F9A4F /* 26. Measuring Performance.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "26. Measuring Performance.xib"; sourceTree = "<group>"; };
+		0197DDD6191BC46E007F9A4F /* 29. Loading Time.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "29. Loading Time.xib"; sourceTree = "<group>"; };
+		0197DDD8191BE15D007F9A4F /* 30. Loading + Decoding Time.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "30. Loading + Decoding Time.xib"; sourceTree = "<group>"; };
+		0197DDDE191C209F007F9A4F /* 34. Loading Methods.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "34. Loading Methods.xib"; sourceTree = "<group>"; };
+		0197DDE0191CB1B7007F9A4F /* 37. Loading Time vs Drawing Time.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "37. Loading Time vs Drawing Time.xib"; sourceTree = "<group>"; };
+		0197DDEC191CE678007F9A4F /* 36. Loading Time vs Drawing Time.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "36. Loading Time vs Drawing Time.xib"; sourceTree = "<group>"; };
+		0197DDF0191CED6B007F9A4F /* 41. Loading Time vs Drawing Time.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "41. Loading Time vs Drawing Time.xib"; sourceTree = "<group>"; };
+		0197DDF4191CF125007F9A4F /* 46. Decoding With Core Graphics.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "46. Decoding With Core Graphics.xib"; sourceTree = "<group>"; };
+		0197DDF6191D1EB7007F9A4F /* 52. Core Graphics vs ImageIO.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "52. Core Graphics vs ImageIO.xib"; sourceTree = "<group>"; };
+		0197DDF9191D29FD007F9A4F /* 48. Decoding With Core Graphics.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "48. Decoding With Core Graphics.xib"; sourceTree = "<group>"; };
+		0197DDFB191D38DB007F9A4F /* 47. Decoding With Core Graphics.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "47. Decoding With Core Graphics.xib"; sourceTree = "<group>"; };
+		0197DDFF191D403A007F9A4F /* 49. Decoding With ImageIO.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "49. Decoding With ImageIO.xib"; sourceTree = "<group>"; };
+		0197DE01191D42D9007F9A4F /* 50. Decoding With ImageIO.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "50. Decoding With ImageIO.xib"; sourceTree = "<group>"; };
+		0197DE03191D4465007F9A4F /* 51. Decoding With ImageIO.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "51. Decoding With ImageIO.xib"; sourceTree = "<group>"; };
+		0197DE05191E1E11007F9A4F /* 58. Core Graphics vs ImageIO.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "58. Core Graphics vs ImageIO.xib"; sourceTree = "<group>"; };
+		0197DE09191E30D9007F9A4F /* 55. Thumbnails.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "55. Thumbnails.xib"; sourceTree = "<group>"; };
+		0197DE0D191E3776007F9A4F /* 56. Thumbnails With Core Graphics.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "56. Thumbnails With Core Graphics.xib"; sourceTree = "<group>"; };
+		0197DE0F191E3AC4007F9A4F /* 57. Thumbnails With ImageIO.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "57. Thumbnails With ImageIO.xib"; sourceTree = "<group>"; };
+		0197DE11191E4016007F9A4F /* 59. Core Graphics vs ImageIO.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "59. Core Graphics vs ImageIO.xib"; sourceTree = "<group>"; };
+		0197DE13191E5FC8007F9A4F /* 62. Decoding Tips.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "62. Decoding Tips.xib"; sourceTree = "<group>"; };
+		0197DE56191E72F9007F9A4F /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
+		0197DE57191E72F9007F9A4F /* Lake */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Lake; sourceTree = "<group>"; };
+		0197DE59191E72F9007F9A4F /* PVR */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PVR; sourceTree = "<group>"; };
+		0197DE60191E8B6D007F9A4F /* UncompressedImageLoadingOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UncompressedImageLoadingOperation.h; sourceTree = "<group>"; };
+		0197DE61191E8B6D007F9A4F /* UncompressedImageLoadingOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UncompressedImageLoadingOperation.m; sourceTree = "<group>"; };
+		01B8A8C519024A1B00E67C11 /* 54. Core Graphics vs ImageIO.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "54. Core Graphics vs ImageIO.xib"; sourceTree = "<group>"; };
+		01B8A8C719024B0300E67C11 /* ImageCarouselController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCarouselController.h; sourceTree = "<group>"; };
+		01B8A8C819024B0300E67C11 /* ImageCarouselController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCarouselController.m; sourceTree = "<group>"; };
+		01C6F7C8191E9839008B9231 /* 74. Uncompressed Images.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "74. Uncompressed Images.xib"; sourceTree = "<group>"; };
+		01C6F7CA191E9CA2008B9231 /* 64. Caching.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "64. Caching.xib"; sourceTree = "<group>"; };
+		01D823FD191E9EDD00170F74 /* 66. Caching.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "66. Caching.xib"; sourceTree = "<group>"; };
+		01D823FF191EA16300170F74 /* 67. Caching.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "67. Caching.xib"; sourceTree = "<group>"; };
+		01FD0D4819212ADE00132D60 /* 72. Uncompressed Images.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "72. Uncompressed Images.xib"; sourceTree = "<group>"; };
+		01FD0D4D19212C9700132D60 /* JPNG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPNG.h; sourceTree = "<group>"; };
+		01FD0D4E19212C9700132D60 /* JPNG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPNG.m; sourceTree = "<group>"; };
+		01FD0D5019212CE700132D60 /* 76. Hybrid Images.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "76. Hybrid Images.xib"; sourceTree = "<group>"; };
+		01FD0D521921E1C300132D60 /* 73. Uncompressed Images.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "73. Uncompressed Images.xib"; sourceTree = "<group>"; };
+		01FD0D541922123C00132D60 /* 77. OpenGL Texture Formats.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "77. OpenGL Texture Formats.xib"; sourceTree = "<group>"; };
+		01FD0D56192215AE00132D60 /* 78. PVRTC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "78. PVRTC.xib"; sourceTree = "<group>"; };
+		01FD0D58192218B400132D60 /* 63. Drawing Tips.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "63. Drawing Tips.xib"; sourceTree = "<group>"; };
+		01FD0D5A19221A2900132D60 /* 80. Conclusions.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "80. Conclusions.xib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		016C1C4618D6DFEA0086BFC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01859C451915A4BB00B7CB73 /* OpenGLES.framework in Frameworks */,
+				01859C431915A4B600B7CB73 /* GLKit.framework in Frameworks */,
+				018A683C18F8848F007770EE /* ImageIO.framework in Frameworks */,
+				014CE0A618F464DA00F1B348 /* QuartzCore.framework in Frameworks */,
+				016C1C4F18D6DFEB0086BFC1 /* CoreGraphics.framework in Frameworks */,
+				016C1C5118D6DFEB0086BFC1 /* UIKit.framework in Frameworks */,
+				016C1C4D18D6DFEB0086BFC1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		013D6B3A191A198900586550 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				01FD0D4C19212C9700132D60 /* JPNG */,
+				013D6B3B191A198900586550 /* iCarousel */,
+				016658D119224FAE00326C73 /* NSOperationStack */,
+			);
+			path = Libraries;
+			sourceTree = SOURCE_ROOT;
+		};
+		013D6B3B191A198900586550 /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				013D6B3C191A198900586550 /* iCarousel.h */,
+				013D6B3D191A198900586550 /* iCarousel.m */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		016658D119224FAE00326C73 /* NSOperationStack */ = {
+			isa = PBXGroup;
+			children = (
+				016658D219224FAE00326C73 /* NSOperationStack.h */,
+				016658D319224FAE00326C73 /* NSOperationStack.m */,
+			);
+			path = NSOperationStack;
+			sourceTree = "<group>";
+		};
+		016C1C4018D6DFEA0086BFC1 = {
+			isa = PBXGroup;
+			children = (
+				016C1C5218D6DFEB0086BFC1 /* ImagePerformance */,
+				016C1C4B18D6DFEA0086BFC1 /* Frameworks */,
+				016C1C4A18D6DFEA0086BFC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		016C1C4A18D6DFEA0086BFC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				016C1C4918D6DFEA0086BFC1 /* ImagePerformance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		016C1C4B18D6DFEA0086BFC1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01859C441915A4BB00B7CB73 /* OpenGLES.framework */,
+				01859C421915A4B600B7CB73 /* GLKit.framework */,
+				018A683B18F8848F007770EE /* ImageIO.framework */,
+				014CE0A518F464DA00F1B348 /* QuartzCore.framework */,
+				016E3F2318F2F58E00BA584F /* CoreImage.framework */,
+				016C1C4C18D6DFEA0086BFC1 /* Foundation.framework */,
+				016C1C4E18D6DFEB0086BFC1 /* CoreGraphics.framework */,
+				016C1C5018D6DFEB0086BFC1 /* UIKit.framework */,
+				016C1C6B18D6DFEB0086BFC1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		016C1C5218D6DFEB0086BFC1 /* ImagePerformance */ = {
+			isa = PBXGroup;
+			children = (
+				0197DE15191E72E7007F9A4F /* Assets */,
+				013D6B3A191A198900586550 /* Libraries */,
+				016C1C8418D89ECA0086BFC1 /* Slides */,
+				017824F618E07938004C3815 /* Services */,
+				016C1C8318D6E04C0086BFC1 /* Views */,
+				016C1C8218D6E0370086BFC1 /* Controllers */,
+				016C1C6418D6DFEB0086BFC1 /* Images.xcassets */,
+				016C1C5318D6DFEB0086BFC1 /* Supporting Files */,
+			);
+			path = ImagePerformance;
+			sourceTree = "<group>";
+		};
+		016C1C5318D6DFEB0086BFC1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				016C1C5418D6DFEB0086BFC1 /* ImagePerformance-Info.plist */,
+				016C1C5518D6DFEB0086BFC1 /* InfoPlist.strings */,
+				016C1C5818D6DFEB0086BFC1 /* main.m */,
+				016C1C5A18D6DFEB0086BFC1 /* ImagePerformance-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		016C1C8218D6E0370086BFC1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				016C1C5B18D6DFEB0086BFC1 /* AppDelegate.h */,
+				016C1C5C18D6DFEB0086BFC1 /* AppDelegate.m */,
+				016C1C5E18D6DFEB0086BFC1 /* Main.storyboard */,
+				016C1C6118D6DFEB0086BFC1 /* ViewController.h */,
+				016C1C6218D6DFEB0086BFC1 /* ViewController.m */,
+				013E882418E5CAA0001378F7 /* LoadingBarController.h */,
+				013E882518E5CAA0001378F7 /* LoadingBarController.m */,
+				01B8A8C719024B0300E67C11 /* ImageCarouselController.h */,
+				01B8A8C819024B0300E67C11 /* ImageCarouselController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		016C1C8318D6E04C0086BFC1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				016C1C8B18D8A1FD0086BFC1 /* TitleLabel.h */,
+				016C1C8C18D8A1FD0086BFC1 /* TitleLabel.m */,
+				016C1C8E18D8A23E0086BFC1 /* BodyLabel.h */,
+				016C1C8F18D8A23E0086BFC1 /* BodyLabel.m */,
+				013D6B1A1917C3B000586550 /* BulletLabel.h */,
+				013D6B1B1917C3B000586550 /* BulletLabel.m */,
+				017AF7181909AB6C00AA6D9D /* FileSizeLabel.h */,
+				017AF7191909AB6C00AA6D9D /* FileSizeLabel.m */,
+				016658CE19223C6000326C73 /* LinkLabel.h */,
+				016658CF19223C6000326C73 /* LinkLabel.m */,
+				014AA62D18F5E52A00A0F24B /* Button.h */,
+				014AA62E18F5E52A00A0F24B /* Button.m */,
+				013E882718E70CA1001378F7 /* LoadingBar.h */,
+				013E882818E70CA1001378F7 /* LoadingBar.m */,
+				016E3F2518F2FBE700BA584F /* ImagePickerView.h */,
+				016E3F2618F2FBE700BA584F /* ImagePickerView.m */,
+				017AF71519097CD700AA6D9D /* ImageView.h */,
+				017AF71619097CD700AA6D9D /* ImageView.m */,
+				01859C3D1915A3AC00B7CB73 /* PVRView.h */,
+				01859C3E1915A3AC00B7CB73 /* PVRView.m */,
+				016658D91923345A00326C73 /* TriangleView.h */,
+				016658DA1923345A00326C73 /* TriangleView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		016C1C8418D89ECA0086BFC1 /* Slides */ = {
+			isa = PBXGroup;
+			children = (
+				016C1C8518D89F270086BFC1 /* 01. Title.xib */,
+				016C1C8918D8A1DA0086BFC1 /* 02. Performance.xib */,
+				013D6B1D1918C86100586550 /* 03. Performance.xib */,
+				016658D51923344C00326C73 /* 04. Compromise.xib */,
+				016658D61923344C00326C73 /* 05. Compromise.xib */,
+				013D6B211918E0DA00586550 /* 06. Trade-offs.xib */,
+				017AF70F190969F200AA6D9D /* 07. Trade-offs.xib */,
+				013D6B231918EB8600586550 /* 08. Trade-offs.xib */,
+				013D6B251918EC4E00586550 /* 09. Trade-offs.xib */,
+				013D6B271918F22600586550 /* 10. File Format.xib */,
+				017AF71119097ACC00AA6D9D /* 11. File Format.xib */,
+				013D6B2D1919101900586550 /* 12. PNG for Everything.xib */,
+				013D6B341919196900586550 /* 15. PNG for Everything.xib */,
+				013D6B36191924FF00586550 /* 16. Other Options.xib */,
+				013D6B3819192A7C00586550 /* 17. Other Options.xib */,
+				017AF71319097C5A00AA6D9D /* 19. Format Sizes.xib */,
+				013D6B3F191A303D00586550 /* 20. Format Sizes.xib */,
+				0197DDD0191B7ACE007F9A4F /* 21. File Size Tips.xib */,
+				017AF720190A9E3100AA6D9D /* 22. Memory Usage.xib */,
+				013D6B43191A394600586550 /* 23. Memory Usage.xib */,
+				013D6B45191A3A5C00586550 /* 24. Memory Usage.xib */,
+				013D6B41191A37B400586550 /* 25. Memory Usage.xib */,
+				0197DDD2191B7F52007F9A4F /* 26. Measuring Performance.xib */,
+				0197DDD6191BC46E007F9A4F /* 29. Loading Time.xib */,
+				0197DDD8191BE15D007F9A4F /* 30. Loading + Decoding Time.xib */,
+				017AF724190AA3B200AA6D9D /* 31. Loading Methods.xib */,
+				013B85C41910376800C93403 /* 32. Loading Methods.xib */,
+				013B85C619103CBC00C93403 /* 33. Loading Methods.xib */,
+				0197DDDE191C209F007F9A4F /* 34. Loading Methods.xib */,
+				017AF72A190AB91A00AA6D9D /* 35. Loading Performance.xib */,
+				0197DDEC191CE678007F9A4F /* 36. Loading Time vs Drawing Time.xib */,
+				0197DDE0191CB1B7007F9A4F /* 37. Loading Time vs Drawing Time.xib */,
+				0197DDF0191CED6B007F9A4F /* 41. Loading Time vs Drawing Time.xib */,
+				0197DDF4191CF125007F9A4F /* 46. Decoding With Core Graphics.xib */,
+				0197DDFB191D38DB007F9A4F /* 47. Decoding With Core Graphics.xib */,
+				0197DDF9191D29FD007F9A4F /* 48. Decoding With Core Graphics.xib */,
+				0197DDFF191D403A007F9A4F /* 49. Decoding With ImageIO.xib */,
+				0197DE01191D42D9007F9A4F /* 50. Decoding With ImageIO.xib */,
+				0197DE03191D4465007F9A4F /* 51. Decoding With ImageIO.xib */,
+				0197DDF6191D1EB7007F9A4F /* 52. Core Graphics vs ImageIO.xib */,
+				01B8A8C519024A1B00E67C11 /* 54. Core Graphics vs ImageIO.xib */,
+				0197DE09191E30D9007F9A4F /* 55. Thumbnails.xib */,
+				0197DE0D191E3776007F9A4F /* 56. Thumbnails With Core Graphics.xib */,
+				0197DE0F191E3AC4007F9A4F /* 57. Thumbnails With ImageIO.xib */,
+				0197DE05191E1E11007F9A4F /* 58. Core Graphics vs ImageIO.xib */,
+				0197DE11191E4016007F9A4F /* 59. Core Graphics vs ImageIO.xib */,
+				017AF726190AAA3800AA6D9D /* 60. CPU vs GPU.xib */,
+				017AF728190AAF2F00AA6D9D /* 61. CPU vs GPU.xib */,
+				0197DE13191E5FC8007F9A4F /* 62. Decoding Tips.xib */,
+				01FD0D58192218B400132D60 /* 63. Drawing Tips.xib */,
+				01C6F7CA191E9CA2008B9231 /* 64. Caching.xib */,
+				01D823FD191E9EDD00170F74 /* 66. Caching.xib */,
+				01D823FF191EA16300170F74 /* 67. Caching.xib */,
+				013B85DB1911673200C93403 /* 70. Extreme Measures.xib */,
+				01FD0D4819212ADE00132D60 /* 72. Uncompressed Images.xib */,
+				01FD0D521921E1C300132D60 /* 73. Uncompressed Images.xib */,
+				01C6F7C8191E9839008B9231 /* 74. Uncompressed Images.xib */,
+				013B85D519115AC000C93403 /* 75. Hybrid Images.xib */,
+				01FD0D5019212CE700132D60 /* 76. Hybrid Images.xib */,
+				01FD0D541922123C00132D60 /* 77. OpenGL Texture Formats.xib */,
+				01FD0D56192215AE00132D60 /* 78. PVRTC.xib */,
+				013B85D719115AD700C93403 /* 79. PVRTC.xib */,
+				01FD0D5A19221A2900132D60 /* 80. Conclusions.xib */,
+				013B85D919115B0B00C93403 /* 81. Links.xib */,
+			);
+			path = Slides;
+			sourceTree = SOURCE_ROOT;
+		};
+		017824F618E07938004C3815 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				017824F718E0795E004C3815 /* ImageLoadingOperation.h */,
+				017824F818E0795E004C3815 /* ImageLoadingOperation.m */,
+				0197DE60191E8B6D007F9A4F /* UncompressedImageLoadingOperation.h */,
+				0197DE61191E8B6D007F9A4F /* UncompressedImageLoadingOperation.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		0197DE15191E72E7007F9A4F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0197DE56191E72F9007F9A4F /* Images */,
+				0197DE57191E72F9007F9A4F /* Lake */,
+				0197DE59191E72F9007F9A4F /* PVR */,
+			);
+			path = Assets;
+			sourceTree = SOURCE_ROOT;
+		};
+		01FD0D4C19212C9700132D60 /* JPNG */ = {
+			isa = PBXGroup;
+			children = (
+				01FD0D4D19212C9700132D60 /* JPNG.h */,
+				01FD0D4E19212C9700132D60 /* JPNG.m */,
+			);
+			path = JPNG;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		016C1C4818D6DFEA0086BFC1 /* ImagePerformance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 016C1C7B18D6DFEB0086BFC1 /* Build configuration list for PBXNativeTarget "ImagePerformance" */;
+			buildPhases = (
+				016C1C4518D6DFEA0086BFC1 /* Sources */,
+				016C1C4618D6DFEA0086BFC1 /* Frameworks */,
+				016C1C4718D6DFEA0086BFC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImagePerformance;
+			productName = ImagePerformance;
+			productReference = 016C1C4918D6DFEA0086BFC1 /* ImagePerformance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		016C1C4118D6DFEA0086BFC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Charcoal Design";
+			};
+			buildConfigurationList = 016C1C4418D6DFEA0086BFC1 /* Build configuration list for PBXProject "ImagePerformance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 016C1C4018D6DFEA0086BFC1;
+			productRefGroup = 016C1C4A18D6DFEA0086BFC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				016C1C4818D6DFEA0086BFC1 /* ImagePerformance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		016C1C4718D6DFEA0086BFC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FD0D5119212CE700132D60 /* 76. Hybrid Images.xib in Resources */,
+				0197DE10191E3AC4007F9A4F /* 57. Thumbnails With ImageIO.xib in Resources */,
+				0197DDD1191B7ACE007F9A4F /* 21. File Size Tips.xib in Resources */,
+				0197DDD3191B7F52007F9A4F /* 26. Measuring Performance.xib in Resources */,
+				013D6B281918F22600586550 /* 10. File Format.xib in Resources */,
+				013D6B221918E0DA00586550 /* 06. Trade-offs.xib in Resources */,
+				0197DE5A191E72F9007F9A4F /* Images in Resources */,
+				013D6B241918EB8600586550 /* 08. Trade-offs.xib in Resources */,
+				016C1C8618D89F270086BFC1 /* 01. Title.xib in Resources */,
+				0197DDF5191CF125007F9A4F /* 46. Decoding With Core Graphics.xib in Resources */,
+				0197DDF1191CED6B007F9A4F /* 41. Loading Time vs Drawing Time.xib in Resources */,
+				016C1C8A18D8A1DA0086BFC1 /* 02. Performance.xib in Resources */,
+				01C6F7CB191E9CA2008B9231 /* 64. Caching.xib in Resources */,
+				013B85DA19115B0B00C93403 /* 81. Links.xib in Resources */,
+				0197DE04191D4465007F9A4F /* 51. Decoding With ImageIO.xib in Resources */,
+				013D6B37191924FF00586550 /* 16. Other Options.xib in Resources */,
+				0197DDE1191CB1B7007F9A4F /* 37. Loading Time vs Drawing Time.xib in Resources */,
+				01D82400191EA16300170F74 /* 67. Caching.xib in Resources */,
+				0197DE12191E4016007F9A4F /* 59. Core Graphics vs ImageIO.xib in Resources */,
+				013B85C51910376800C93403 /* 32. Loading Methods.xib in Resources */,
+				01FD0D5B19221A2900132D60 /* 80. Conclusions.xib in Resources */,
+				0197DE14191E5FC8007F9A4F /* 62. Decoding Tips.xib in Resources */,
+				017AF725190AA3B200AA6D9D /* 31. Loading Methods.xib in Resources */,
+				017AF71219097ACC00AA6D9D /* 11. File Format.xib in Resources */,
+				016658D71923344C00326C73 /* 04. Compromise.xib in Resources */,
+				016658D81923344C00326C73 /* 05. Compromise.xib in Resources */,
+				01FD0D4919212ADE00132D60 /* 72. Uncompressed Images.xib in Resources */,
+				016C1C6518D6DFEB0086BFC1 /* Images.xcassets in Resources */,
+				0197DE0A191E30D9007F9A4F /* 55. Thumbnails.xib in Resources */,
+				016C1C5718D6DFEB0086BFC1 /* InfoPlist.strings in Resources */,
+				013D6B2E1919101900586550 /* 12. PNG for Everything.xib in Resources */,
+				013D6B351919196900586550 /* 15. PNG for Everything.xib in Resources */,
+				01B8A8C619024A1B00E67C11 /* 54. Core Graphics vs ImageIO.xib in Resources */,
+				013D6B42191A37B400586550 /* 25. Memory Usage.xib in Resources */,
+				01FD0D531921E1C300132D60 /* 73. Uncompressed Images.xib in Resources */,
+				0197DDD7191BC46E007F9A4F /* 29. Loading Time.xib in Resources */,
+				01FD0D551922123C00132D60 /* 77. OpenGL Texture Formats.xib in Resources */,
+				01FD0D57192215AE00132D60 /* 78. PVRTC.xib in Resources */,
+				013B85C719103CBC00C93403 /* 33. Loading Methods.xib in Resources */,
+				013D6B40191A303D00586550 /* 20. Format Sizes.xib in Resources */,
+				017AF729190AAF2F00AA6D9D /* 61. CPU vs GPU.xib in Resources */,
+				0197DDFC191D38DB007F9A4F /* 47. Decoding With Core Graphics.xib in Resources */,
+				01FD0D59192218B400132D60 /* 63. Drawing Tips.xib in Resources */,
+				0197DE00191D403A007F9A4F /* 49. Decoding With ImageIO.xib in Resources */,
+				0197DDDF191C209F007F9A4F /* 34. Loading Methods.xib in Resources */,
+				013B85DC1911673200C93403 /* 70. Extreme Measures.xib in Resources */,
+				0197DE06191E1E11007F9A4F /* 58. Core Graphics vs ImageIO.xib in Resources */,
+				013D6B44191A394600586550 /* 23. Memory Usage.xib in Resources */,
+				013D6B3919192A7C00586550 /* 17. Other Options.xib in Resources */,
+				017AF727190AAA3800AA6D9D /* 60. CPU vs GPU.xib in Resources */,
+				013B85D819115AD700C93403 /* 79. PVRTC.xib in Resources */,
+				013D6B261918EC4E00586550 /* 09. Trade-offs.xib in Resources */,
+				017AF71419097C5A00AA6D9D /* 19. Format Sizes.xib in Resources */,
+				017AF721190A9E3100AA6D9D /* 22. Memory Usage.xib in Resources */,
+				016C1C6018D6DFEB0086BFC1 /* Main.storyboard in Resources */,
+				0197DDF8191D1F1C007F9A4F /* 52. Core Graphics vs ImageIO.xib in Resources */,
+				0197DDD9191BE15D007F9A4F /* 30. Loading + Decoding Time.xib in Resources */,
+				017AF72B190AB91A00AA6D9D /* 35. Loading Performance.xib in Resources */,
+				013B85D619115AC000C93403 /* 75. Hybrid Images.xib in Resources */,
+				017AF710190969F200AA6D9D /* 07. Trade-offs.xib in Resources */,
+				01D823FE191E9EDD00170F74 /* 66. Caching.xib in Resources */,
+				0197DE02191D42D9007F9A4F /* 50. Decoding With ImageIO.xib in Resources */,
+				0197DDFA191D29FD007F9A4F /* 48. Decoding With Core Graphics.xib in Resources */,
+				0197DDED191CE678007F9A4F /* 36. Loading Time vs Drawing Time.xib in Resources */,
+				013D6B46191A3A5C00586550 /* 24. Memory Usage.xib in Resources */,
+				0197DE0E191E3776007F9A4F /* 56. Thumbnails With Core Graphics.xib in Resources */,
+				0197DE5B191E72F9007F9A4F /* Lake in Resources */,
+				013D6B1E1918C86100586550 /* 03. Performance.xib in Resources */,
+				0197DE5D191E72F9007F9A4F /* PVR in Resources */,
+				01C6F7C9191E9839008B9231 /* 74. Uncompressed Images.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		016C1C4518D6DFEA0086BFC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01FD0D4F19212C9700132D60 /* JPNG.m in Sources */,
+				016C1C6318D6DFEB0086BFC1 /* ViewController.m in Sources */,
+				013D6B3E191A198900586550 /* iCarousel.m in Sources */,
+				017AF71719097CD700AA6D9D /* ImageView.m in Sources */,
+				013E882618E5CAA0001378F7 /* LoadingBarController.m in Sources */,
+				016C1C9018D8A23E0086BFC1 /* BodyLabel.m in Sources */,
+				016C1C8D18D8A1FD0086BFC1 /* TitleLabel.m in Sources */,
+				013D6B1C1917C3B000586550 /* BulletLabel.m in Sources */,
+				01859C3F1915A3AC00B7CB73 /* PVRView.m in Sources */,
+				016C1C5D18D6DFEB0086BFC1 /* AppDelegate.m in Sources */,
+				016658D019223C6000326C73 /* LinkLabel.m in Sources */,
+				016658D419224FAE00326C73 /* NSOperationStack.m in Sources */,
+				016E3F2718F2FBE700BA584F /* ImagePickerView.m in Sources */,
+				016C1C5918D6DFEB0086BFC1 /* main.m in Sources */,
+				016658DB1923345A00326C73 /* TriangleView.m in Sources */,
+				017AF71A1909AB6C00AA6D9D /* FileSizeLabel.m in Sources */,
+				014AA62F18F5E52A00A0F24B /* Button.m in Sources */,
+				013E882918E70CA1001378F7 /* LoadingBar.m in Sources */,
+				01B8A8C919024B0300E67C11 /* ImageCarouselController.m in Sources */,
+				017824F918E0795E004C3815 /* ImageLoadingOperation.m in Sources */,
+				0197DE62191E8B6D007F9A4F /* UncompressedImageLoadingOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		016C1C5518D6DFEB0086BFC1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				016C1C5618D6DFEB0086BFC1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		016C1C5E18D6DFEB0086BFC1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				016C1C5F18D6DFEB0086BFC1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		016C1C7918D6DFEB0086BFC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		016C1C7A18D6DFEB0086BFC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		016C1C7C18D6DFEB0086BFC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImagePerformance/ImagePerformance-Prefix.pch";
+				INFOPLIST_FILE = "ImagePerformance/ImagePerformance-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		016C1C7D18D6DFEB0086BFC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImagePerformance/ImagePerformance-Prefix.pch";
+				INFOPLIST_FILE = "ImagePerformance/ImagePerformance-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		016C1C4418D6DFEA0086BFC1 /* Build configuration list for PBXProject "ImagePerformance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016C1C7918D6DFEB0086BFC1 /* Debug */,
+				016C1C7A18D6DFEB0086BFC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		016C1C7B18D6DFEB0086BFC1 /* Build configuration list for PBXNativeTarget "ImagePerformance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016C1C7C18D6DFEB0086BFC1 /* Debug */,
+				016C1C7D18D6DFEB0086BFC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 016C1C4118D6DFEA0086BFC1 /* Project object */;
+}
