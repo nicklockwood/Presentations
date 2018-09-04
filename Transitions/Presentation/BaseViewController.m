@@ -105,6 +105,10 @@ static UIImageView *arrowView = nil;
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
+    if ([segue class] == [UIStoryboardSegue class])
+    {
+        return;
+    }
     //set the pop segue automatically (if it exists) by using magic
     NSString *segueName = NSStringFromClass([segue class]);
     NSString *popSegueName = [segueName stringByReplacingOccurrencesOfString:@"Push" withString:@"Pop"];
